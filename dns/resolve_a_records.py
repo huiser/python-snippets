@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import dns.resolver
 
-domains = ('www.stone-it.com', 'www.huiser.nl')
+domains = ('www.stone-it.com', 'www.huiser.nl', 'www.paardensnikkel.nl')
 
 for domain in domains:
     answers = dns.resolver.query(domain, 'A')
